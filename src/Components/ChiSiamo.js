@@ -19,19 +19,19 @@ function ChiSiamo() {
                 <div className="row">
                     <div className="col-lg-4">
                         <img className="bd-placeholder-img rounded-circle" width="150" height="150" src={ceoimg} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-                        <h2 className="fw-normal">CEO</h2>
+                        <h2 className="fw-normal comontext">CEO</h2>
                         <p> Mr Ahmed As CEO They typically have a broad range of responsibilities, including managing operations,</p>
                         <p><a className="btn btn-secondary" href="#">View details »</a></p>
                     </div>
                     <div className="col-lg-4">
                         <img className="bd-placeholder-img rounded-circle" width="150" height="150" src={gmimg} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-                        <h2 className="fw-normal">GM</h2>
+                        <h2 className="fw-normal comontext">GM</h2>
                         <p>Mr Tanveer as GM They are responsible for strategic planning, resource allocation, team management.</p>
                         <p><a className="btn btn-secondary" href="#">View details »</a></p>
                     </div>
                     <div className="col-lg-4">
                         <img className="bd-placeholder-img rounded-circle" width="150" height="150" src={cfoimg} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-                        <h2 className="fw-normal">CFO</h2>
+                        <h2 className="fw-normal comontext">CFO</h2>
                         <p>Mis Alina as CFO They are responsible for financial planning, budgeting, financial analysis, risk management, </p>
                         <p><a className="btn btn-secondary" href="#">View details »</a></p>
                     </div>
