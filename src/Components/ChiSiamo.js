@@ -2,14 +2,15 @@ import React from 'react'
 import ceoimg from '../images/ceo.jpg'
 import gmimg from '../images/gm.jpg'
 import cfoimg from '../images/cfo.jpg'
+import { RiDoubleQuotesL } from "react-icons/ri";
 function ChiSiamo() {
     return (
         <>
             <div className="px-4 py-5 my-5 text-center">
                 <h1 className="display-5 fw-bold text-body-emphasis text-success">CHI SIAMO</h1>
                 <hr width='250' className='mx-auto  text-success' />
-                <div className="col-md-6 mx-auto">
-                    <p className="lead mb-4">Solar energy is a renewable source of power that utilizes sunlight to generate electricity or heat, reducing reliance on fossil fuels. It involves the use of photovoltaic  cells to convert sunlight into electricity, or solar thermal systems to harness solar radiation for heating applications. Solar energy offers numerous environmental and economic benefits while contributing to a sustainable future.</p>
+                <div className=" d-flex flex-wrap">
+                    <p className=" mb-4">Solar energy is a renewable source of power that utilizes sunlight to generate electricity or heat, reducing reliance on fossil fuels. It involves the use of photovoltaic  cells to convert sunlight into electricity, or solar thermal systems to harness solar radiation for heating applications. Solar energy offers numerous environmental and economic benefits while contributing to a sustainable future.</p>
 
                 </div>
             </div>
@@ -61,14 +62,15 @@ function ChiSiamo() {
 </div>
 
                 <hr width='250' className='mx-auto  text-success' />
-                <div className="col-md-6 mx-auto">
-                    <p className="lead mb-4 text-bold">A management team is a group of individuals within an organization who are responsible for making strategic decisions and overseeing day-to-day operations.
-                        They bring diverse expertise and skills to the table, collaborating to set goals, allocate resources, and drive the organization towards success.
+                <div className=" mx-auto">
+                    <p  className=" d-flex flex-wrap mb-4 "> <RiDoubleQuotesL class='quot1' />A management team is a group of individuals within an organization who are responsible for making strategic decisions and overseeing day-to-day operations.
+                        They bring diverse <RiDoubleQuotesL class='quot2' /> expertise and skills to the table, collaborating to set goals, allocate resources, and drive the organization towards success.
                         Effective management teams foster communication, innovation, and alignment to ensure efficient execution of business strategies and deliver desired outcomes.</p>
 
                 </div>
+                <p className='text-success comontext'>--Cristian Testoni--</p>
             </div>
-            <footer className="py-3 my-4">
+            {/* <footer className="py-3 my-4">
     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
       <li className="nav-item"><a href="/" className="nav-link px-2 text-muted">Home</a></li>
       <li className="nav-item"><a href="/chisiamo" className="nav-link px-2 text-muted">ChiSiamo</a></li>
@@ -78,7 +80,7 @@ function ChiSiamo() {
       <li className="nav-item"><a href="/works" className="nav-link px-2 text-muted">Works</a></li>
     </ul>
     <p className="text-center text-muted">© 2023 Company, Solar innovation</p>
-  </footer>
+  </footer> */}
         </>
     )
 }

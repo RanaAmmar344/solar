@@ -177,7 +177,7 @@ Wind energy is a renewable energy source that utilizes the power of wind to gene
     </div>
 
                 </div>
-                <footer className="py-3 my-4">
+                {/* <footer className="py-3 my-4">
     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
       <li className="nav-item"><a href="/" className="nav-link px-2 text-muted">Home</a></li>
       <li className="nav-item"><a href="/chisiamo" className="nav-link px-2 text-muted">ChiSiamo</a></li>
@@ -188,7 +188,7 @@ Wind energy is a renewable energy source that utilizes the power of wind to gene
     </ul>
     <p className="text-center text-muted">© 2023 Company, Solar innovation</p>
   </footer>
-               
+                */}
     </>
   )
 }

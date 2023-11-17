@@ -22,3 +22,42 @@ code {
  
   
 }
+.cover-container{
+  height: 520px;
+  width: auto;
+  background-image: url('./images//cover3.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 150px;
+  
+}
+.main-heading{
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+ 
+
+}
+.lead{
+  font-weight: bold;
+}
+.quot1{
+  
+  color: rgb(178, 198, 218);
+  font-size: 22px;
+}
+.quot2{
+  transform: rotate(180deg);
+  font-size: 22px;
+ 
+  color: rgb(178, 198, 218);
+}
+
+.comontext{
+  font-family: 'Anton', sans-serif;
+
+}

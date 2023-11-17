@@ -57,7 +57,7 @@ function Work() {
             <img src={logo} alt="Logo" width="150" height="30" className="d-inline-block align-text-top"/>
     <h1 className="display-5 fw-bold text-body-emphasis text-warning">Solar Power</h1>
     <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Solar power is a clean energy source that produces no greenhouse gas emissions or air pollutants during operation. By using solar energy, we can reduce our carbon footprint, combat climate change, and protect the environment for future generations.</p>
+      <p className="lead2 mb-4">Solar power is a clean energy source that produces no greenhouse gas emissions or air pollutants during operation. By using solar energy, we can reduce our carbon footprint, combat climate change, and protect the environment for future generations.</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <button type="button" className="btn btn-primary btn-lg px-4 gap-3 bg-success">GET STARTED</button>
         <button type="button" className="btn btn-outline-secondary btn-lg px-4">LEARN MORE</button>

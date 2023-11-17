@@ -1,41 +1,38 @@
 import React from 'react'
-import coverimg from '../images/cover.jpg'
-import coverimg2 from '../images/cover2.jpg'
-import coverimg3 from '../images/cover3.jpg'
+
 import solarimg from '../images/solar1.jpg'
 import windimg from '../images/wind.jpg'
+import ChiSiamo from './ChiSiamo'
+import Sire from './Sire'
+import  SireFeatures from './Sirefeatures'
+import Sireproduct from './Sireproduct'
+import Work from './Work'
 export default function Home() {
   return (
     <>
-   <div className='fluid-bg-dark'  >
+   <div className='fluid'  >
     
-      <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel"  >
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={coverimg} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={coverimg2} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={coverimg3} className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+  <div class="cover-container text-center   mx-auto ">
+
+ 
+  <main class="px-3">
+    <h1 class='main-heading'>Il tuo accesso al sole</h1>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+    </p>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+  </footer>
 </div>
     </div>
     <div className='contianer my-5 mx-4'>
 
 
-    <div className="row mb-2 ">
-    <div className="col-md-6">
+    <div className="row mb-2 mx-2 ">
+    <div className="col-md-6 px-5">
       <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col p-4 d-flex flex-column position-static">
           <strong className="d-inline-block mb-2 text-primary">Solar Energy</strong>
@@ -49,7 +46,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="col-md-6">
+    <div className="col-md-6 px-5">
       <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col p-4 d-flex flex-column position-static">
           <strong className="d-inline-block mb-2 text-success">Wind Energy</strong>
@@ -80,6 +77,11 @@ export default function Home() {
       </div>
     </div>
   </div>
+  <ChiSiamo/>
+  <Sire/>
+  <SireFeatures/>
+  <Sireproduct/>
+  <Work/>
 
 
     
